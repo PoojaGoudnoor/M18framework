@@ -1,0 +1,26 @@
+{
+    "valid": [
+        {
+            "url": "https://practicetestautomation.com/practice-test-login/",
+            "username": "student",
+            "password": "Password123"
+        },
+        {
+            "url": "https://practicetestautomation.com/practice-test-login/",
+            "username": "student",
+            "password": "Password123"
+        }
+    ],
+    "invalid": [
+        {
+            "url": "https://practicetestautomation.com/practice-test-login/",
+            "username": "stunt",
+            "password": "Passwd123"
+        },
+        {
+            "url": "https://practicetestautomation.com/practice-test-login/",
+            "username": "sudent",
+            "password": "Passwor23"
+        }
+    ]
+}
