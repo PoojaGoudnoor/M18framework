@@ -1,10 +1,10 @@
 import { test } from "@playwright/test";
-import { getRandomNumber, getRandomString } from "..PageObjectModel/utils/typescriptUtility"
+import { getRandomNumber, getRandomString, getCurrentDate, getTimestamp, getDate } from "../PageObjectModel/utils/typescriptutility"
 
 test("typescript Utility", async () => {
 
     let data = await getRandomNumber(
-        5,
+        
         500000000, 1000000000
     );
     console.log(data);
